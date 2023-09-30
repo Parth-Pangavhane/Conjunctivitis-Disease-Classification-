@@ -12,7 +12,7 @@ Conjunctivitis, also known as pink eye, is a common eye condition characterized 
 Clone the repository
 
 ```bash
-https://github.com/Parth-Pangavhane/Conjunctivitis-Disease-Classification.git
+https://github.com/Parth-Pangavhane/Conjunctivitis-Disease-Classification-.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 

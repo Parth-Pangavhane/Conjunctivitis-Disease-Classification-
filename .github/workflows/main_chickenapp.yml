@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy container app to Azure Web App - eyesapp
+name: Build and deploy container app to Azure Web App - Conjunctivitisapp
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
     - name: Log in to registry
       uses: docker/login-action@v2
       with:
-        registry: https://eyesapp.azurecr.io/
+        registry: https://Conjunctivitisapp.azurecr.io/
         username: ${{ secrets.AzureAppService_ContainerUsername_94025f5aed8b4af1922da4db3047fe61 }}
         password: ${{ secrets.AzureAppService_ContainerPassword_171b23b6a8f14e33a75f36c6dfd6802a }}
 
@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: eyesapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_94025f5aed8b4af1922da4db3047fe61 }}/eyes:${{ github.sha }}
+        tags: Conjunctivitisapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_94025f5aed8b4af1922da4db3047fe61 }}/Conjunctivitis:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -45,7 +45,7 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'eyesapp'
+        app-name: 'Conjunctivitisapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_bc7f25129a214516999e2f1cb58abd30 }}
-        images: 'eyesapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_94025f5aed8b4af1922da4db3047fe61 }}/eyes:${{ github.sha }}'
+        images: 'Conjunctivitisapp.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_94025f5aed8b4af1922da4db3047fe61 }}/Conjunctivitis:${{ github.sha }}'

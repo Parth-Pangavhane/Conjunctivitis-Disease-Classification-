@@ -20,7 +20,7 @@ Traceback (most recent call last):
     resp = make_response(f(*args, **kwargs))
   File "app.py", line 40, in predictRoute
     result = clApp.classifier.predict()
-  File "c:\users\realme\python\eyes-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+  File "c:\users\realme\python\Conjunctivitis-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
     model = load_model(os.path.join("artifacts","training", "model.h5"))
   File "D:\Program Files\Anaconda\envs\cnncls\lib\site-packages\keras\src\saving\saving_api.py", line 238, in load_model
     return legacy_sm_saving_lib.load_model(
@@ -48,7 +48,7 @@ Traceback (most recent call last):
     resp = make_response(f(*args, **kwargs))
   File "app.py", line 40, in predictRoute
     result = clApp.classifier.predict()
-  File "c:\users\realme\python\eyes-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+  File "c:\users\realme\python\Conjunctivitis-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
     model = load_model(os.path.join("artifacts","training", "model.h5"))
   File "D:\Program Files\Anaconda\envs\cnncls\lib\site-packages\keras\src\saving\saving_api.py", line 238, in load_model
     return legacy_sm_saving_lib.load_model(
@@ -75,7 +75,7 @@ Traceback (most recent call last):
     resp = make_response(f(*args, **kwargs))
   File "app.py", line 40, in predictRoute
     result = clApp.classifier.predict()
-  File "c:\users\realme\python\eyes-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+  File "c:\users\realme\python\Conjunctivitis-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
     model = load_model(os.path.join("artifacts","training", "model.h5"))
   File "D:\Program Files\Anaconda\envs\cnncls\lib\site-packages\keras\src\saving\saving_api.py", line 238, in load_model
     return legacy_sm_saving_lib.load_model(
@@ -132,7 +132,7 @@ Traceback (most recent call last):
     resp = make_response(f(*args, **kwargs))
   File "app.py", line 40, in predictRoute
     result = clApp.classifier.predict()
-  File "c:\users\realme\python\eyes-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+  File "c:\users\realme\python\Conjunctivitis-disease-classification-projects\src\cnnClassifier\pipeline\predict.py", line 16, in predict
     model = load_model(os.path.join("artifacts","training", "model.h5"))
   File "D:\Program Files\Anaconda\envs\cnncls\lib\site-packages\keras\src\saving\saving_api.py", line 238, in load_model
     return legacy_sm_saving_lib.load_model(

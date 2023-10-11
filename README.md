@@ -11,31 +11,32 @@ Conjunctivitis, also known as pink eye, is a common eye condition characterized 
 
 Clone the repository
 
-bash
+```bash
 https://github.com/Parth-Pangavhane/Conjunctivitis-Disease-Classification-.git
-
+```
 ### STEP 01- Create a conda environment after opening the repository
 
-bash
+```bash
 conda create -n cnncls python=3.8 -y
+```
 
-
-bash
+```bash
 conda activate cnncls
-
+```
 
 
 ### STEP 02- install the requirements
-bash
+```bash
 pip install -r requirements.txt
+```
 
 
-
-bash
+```bash
 
 python app.py
-
+```
 
 Now,
-bash
+```bash
 open up you local host
+```
